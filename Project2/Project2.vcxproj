@@ -81,7 +81,7 @@
     </ClCompile>
     <Link>
       <AdditionalDependencies />
-      <SubSystem>Console</SubSystem>
+      <SubSystem>Windows</SubSystem>
       <EntryPointSymbol>main</EntryPointSymbol>
     </Link>
   </ItemDefinitionGroup>
@@ -123,6 +123,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="minisystem.cpp" />
     <ClCompile Include="MyForm1.cpp" />
+    <ClCompile Include="MyForm2.cpp" />
     <ClCompile Include="sqlite3.c">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</CompileAsManaged>
     </ClCompile>
@@ -132,6 +133,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="MyForm1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MyForm2.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="sqlite3.h" />

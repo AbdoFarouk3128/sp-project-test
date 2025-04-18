@@ -24,6 +24,15 @@
     <ClCompile Include="sqlite3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="minisystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyForm2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyForm.h">
@@ -32,21 +41,11 @@
     <ClInclude Include="sqlite3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="database.db">
-      <Filter>Source Files\database</Filter>
-    </None>
-    <None Include="query.sql">
-      <Filter>Source Files\database</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="database\database.db">
-      <Filter>Source Files</Filter>
-    </None>
-    <None Include="database\query.sql">
-      <Filter>Source Files</Filter>
-    </None>
+    <ClInclude Include="MyForm1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyForm2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
